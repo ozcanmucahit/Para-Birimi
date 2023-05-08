@@ -24,7 +24,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    fetch("http://hasanadiguzel.com.tr/api/kurgetir", {
+    fetch("https://hasanadiguzel.com.tr/api/kurgetir", {
       method: "get",
       headers: {
         "Content-Type": "application/json",
